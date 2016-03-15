@@ -10,7 +10,7 @@ Major rewrite. Now we use [modelling](https://www.npmjs.org/package/modelling) f
 
 Install via npm:
 
-    npm install --save openid-connect
+    npm install --save openidconnect
 
 You can add it to your Connect or Express application as another middleware.
 Be sure to enable the `bodyParser` and `query` middleware.
@@ -18,7 +18,7 @@ Be sure to enable the `bodyParser` and `query` middleware.
 To use it inside your project, just do:
 
 ```
-var oidc = require('openid-connect').oidc(options);
+var oidc = require('openidconnect').oidc(options);
 ```
 
 and then, for example, with express
@@ -208,10 +208,6 @@ When you require openid-connect, you may specify options. If you specify them, i
 
   Retrieves current _orm_ of instance.
  
-## Example
-
-There is a complete example [here](https://github.com/agmoyano/OpenIDConnect/tree/master/examples).
-
 ## Help!
 
 Any suggestions, bug reports, bug fixes, pull requests, etc, are very wellcome ([here](https://github.com/agmoyano/OpenIDConnect/issues)). 

@@ -1,6 +1,6 @@
 {
-  "name": "openid-connect",
-  "version": "1.2.4",
+  "name": "openidconnect",
+  "version": "1.0.0",
   "keywords": [
     "oauth",
     "oauth2",
@@ -13,14 +13,14 @@
     "connect",
     "openid connect"
   ],
-  "description": "This is an fully functional OAuth 2 server implementation, with support for OpenID Connect specification. Based on https://github.com/ammmir/node-oauth2-provider.",
-  "homepage": "https://github.com/agmoyano/OpenIDConnect",
+  "description": "This is an fully functional OAuth 2 server implementation, with support for OpenID Connect specification.",
+  "homepage": "https://github.com/gautameswaran/openidconnecct",
   "repository": {
     "type": "git",
-    "url": "https://github.com/agmoyano/OpenIDConnect.git"
+    "url": "https://github.com/gautameswaran/openidconnect.git"
   },
   "author": {
-    "name": "Agustín Moyano"
+    "name": "Gautam Eswaran"
   },
   "main": "index",
   "dependencies": {
@@ -32,9 +32,6 @@
     "modelling": "0.0.3",
     "q": "^1.4.1",
     "sails-redis": "^0.10.5"
-  },
-  "directories": {
-    "example": "./examples"
   },
   "licenses": [
     {

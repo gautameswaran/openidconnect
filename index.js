@@ -1,9 +1,8 @@
 /**
  * index.js
  * OpenIDConnect provider
- * Based on OAuth 2.0 provider by Amir Malik
  *
- * @author Agustín Moyano
+ * @author Gautam Eswaran
  */
 
 var EventEmitter = require('events').EventEmitter,
